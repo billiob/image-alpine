@@ -30,6 +30,7 @@ RUN apk update \
   rsyslog \
   util-linux \
   bash \
+  linux-firmware-none \
   linux-vanilla \
   && apk upgrade \
   openssl \
